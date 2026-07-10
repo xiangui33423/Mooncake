@@ -95,7 +95,6 @@ class MasterService {
     friend class test::MasterServiceTenantQuotaTest;
     friend class MasterSnapshotManager;  // Allow access to internal state for
                                          // snapshot
-    friend class ha::MasterSnapshotCodec;  // Allow codec to access private members
 
    public:
     using NoFProbeFn =
